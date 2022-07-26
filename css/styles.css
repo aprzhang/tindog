@@ -5,10 +5,11 @@ body {
 #title {
   background-color: #ff4c68;
     color: white;
+
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 3% 15%;
 }
 
 h1 {
@@ -69,11 +70,15 @@ p {
 .titleimg {
  width: 60%;
  transform: rotate(25deg);
+ position: relative;
 }
 
 /* Features */
 #features {
   padding: 7% 15%;
+  background-color: white;
+position: relative;
+z-index: 1;
 }
 
 .featurebox {
@@ -129,6 +134,7 @@ padding-bottom: 5%
 
 #pricing {
   padding: 100px;
+  text-align: center;
 }
 
 .pricing-column {
